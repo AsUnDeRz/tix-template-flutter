@@ -1,0 +1,41 @@
+{
+  "asset": "asset:app/lib/api/core_api.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "CoreApi",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:app/lib/api/core_api.dart#CoreApi",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": true,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:dio/lib/src/dio.dart#Dio",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:app/lib/di/share_preference.dart#SharePrefInterface",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

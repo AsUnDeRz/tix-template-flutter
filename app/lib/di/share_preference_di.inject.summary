@@ -1,0 +1,28 @@
+{
+  "asset": "asset:app/lib/app/share_preference_di.dart",
+  "summary": {
+    "injector": [],
+    "module": [
+      {
+        "name": "SharePreferenceDi",
+        "providers": [
+          {
+            "name": "sharedPreferences",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "dart:async#Future",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ]
+      }
+    ],
+    "injectable": []
+  }
+}

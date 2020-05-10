@@ -1,0 +1,32 @@
+{
+  "asset": "asset:app/lib/app/app_di.dart",
+  "summary": {
+    "injector": [
+      {
+        "name": "AppDi",
+        "providers": [
+          {
+            "name": "sharePrefInterface",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:app/lib/app/share_preference.dart#SharePrefInterface",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": [
+          "asset:app/lib/api/dio_di.dart#DioDi",
+          "asset:app/lib/app/share_preference_di.dart#SharePreferenceDi"
+        ]
+      }
+    ],
+    "module": [],
+    "injectable": []
+  }
+}

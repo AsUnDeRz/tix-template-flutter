@@ -1,0 +1,34 @@
+{
+  "asset": "asset:app/lib/app/share_preference.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "SharePrefInterface",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:app/lib/app/share_preference.dart#SharePrefInterface",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": true,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "dart:async#Future",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -30,7 +30,7 @@ Future<void> main() async {
   TixAnalytics.instance.init(
       dsn: Platform.isAndroid ? sentryTokenAndroid : sentryTokenIOS,
       analytics: new FirebaseAnalytics());
-  TixNavigate.instance.addObserveRoute(AnalyticService.instance.observeRouteChange);
+  TixNavigate.instance.addObserveRoute(TixAnalytics.instance.observeRouteChange);
   TixNavigate.instance.configRoute([], key: appState.navigatorKey);
 
   Design(themeApp: ThemeWhite());

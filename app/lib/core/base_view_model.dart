@@ -18,6 +18,7 @@ abstract class BaseViewModel extends ChangeNotifier with DependencyInjectionMixi
   }
 
   BaseViewModel() {
+    _disposed = false;
     init();
   }
 
